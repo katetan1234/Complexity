@@ -4,7 +4,7 @@
   "description": "Static and dynamic analysis",
   "main": "analysis.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "escodegen": "^1.4.1",
-    "esprima": "^1.2.2"
+    "esprima": "^1.2.2",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
   }
 }

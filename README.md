@@ -1,4 +1,5 @@
 # Complexity
+![build](https://travis-ci.org/CSC-DevOps/Fuzzing.svg?branch=master)
 
 In this workshop, you'll be implementing simple algorithms for checking basic properties of code complexity.
 
