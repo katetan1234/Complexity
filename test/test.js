@@ -1,12 +1,12 @@
-var expect    = require("chai").expect;
-var analysis = require("../analysis");
+var expect    = require("chai").expect();
+var main = require("../analysis");
 
-// describe("Sanity check", function() {
-//   describe("runs", function() {
-//     it("doesn't crash", function() {
-//        // analysis("../analysis.js")
-//     });
-//   });
+describe("Sanity check", function() {
+  describe("runs", function() {
+    it("doesn't crash", function() {
+       main.complexity("analysis.js")
+    });
+  });
 
 
 //   // describe("fuzzer works", function() {
@@ -14,4 +14,4 @@ var analysis = require("../analysis");
 //   //       // main.fuzzer.mutate.string("hello");
 //   //   });
 //   // });
-// });
+});
