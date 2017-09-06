@@ -4,7 +4,7 @@
   "description": "Static and dynamic analysis",
   "main": "analysis.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
